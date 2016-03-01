@@ -30,6 +30,10 @@ body{
     font-size:10px;
 }
 
+#features{
+    background-color: #F2F2F2;   
+}
+
 @keyframes fadein {
     from {
         opacity:0;
