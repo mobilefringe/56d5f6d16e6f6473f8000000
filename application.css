@@ -81,7 +81,9 @@ body{
 }
 
 
-
+.home_img_div{
+    margin-top:20px;
+}
 .main_btn{
     background: #FFBE1D;
     color: #fff;
