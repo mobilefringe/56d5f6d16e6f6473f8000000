@@ -59,8 +59,8 @@
             <div class="main_container">
                 <div class="row">
                     <div class="col-md-7 col-xs-6">
-                        <!--<h4 class="header">Privacy Policy</h4>-->
-                        <!--<p>Maintaining the privacy of our followers is one of our greatest concerns. Freebie Web Resources is a great resource site, and we would like to keep it that way without compromising the safety and privacy of our consuming end: you. ... <a href="#" id="read_privacy">Read More!</a></p>-->
+                        <h4 class="header">Privacy Policy</h4>
+                        <p>Maintaining the privacy of our followers is one of our greatest concerns. Freebie Web Resources is a great resource site, and we would like to keep it that way without compromising the safety and privacy of our consuming end: you. ... <a href="#" id="read_privacy">Read More!</a></p>
                     </div>
                     <div class="col-md-5 col-xs-6">
                         <div class="newsletter_div">
