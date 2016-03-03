@@ -70,7 +70,7 @@
                                 <input type="submit" value="SUBMIT" class="submit_btn hidden_phone" />
                                 <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
                                 <label for="agree_terms" class="confirm_label checkbox-custom-label">
-                                    I agree to receive email messaging from Retail Maverick
+                                    I agree to receive email messaging from Mall Maverick
                                 </label>
                                 <input type="submit" value="SUBMIT" class="submit_btn show_phone" />
                                 <h5 id="subscription_confirmed">Thank you for subscribing.</h5>
