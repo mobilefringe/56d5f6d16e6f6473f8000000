@@ -87,6 +87,10 @@ body{
 
 .how_img_div{
     margin-top:55px;
+    text-align:right;
+    img{
+        max-width:400%;
+    }
 }
 .main_btn{
     background: #FFBE1D;
