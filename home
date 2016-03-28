@@ -46,15 +46,14 @@
                 </p>
                 <p class="desc">
                     Manage your:
-                    <ul>
-                        <li>Leasing Maps and Units</li>
-                        <li>Contacts, Tenants, and Leads</li>
-                        <li>Email Reminders for Critical dates</li>
-                        <li>Manage your Leasing Contracts</li>
-                        <li>Lease Reporting</li>
-                    </ul>
                 </p>
-                
+                <ul>
+                    <li>Leasing Maps and Units</li>
+                    <li>Contacts, Tenants, and Leads</li>
+                    <li>Email Reminders for Critical dates</li>
+                    <li>Manage your Leasing Contracts</li>
+                    <li>Lease Reporting</li>
+                </ul>
             </div>
             <div class="col-md-6 how_img_div">
                 <img src="http://assets.codecloudapp.com/sites/56d5f6d16e6f6473f8000000/image/png/1456864002000/howitworks.png" class="" alt="">
