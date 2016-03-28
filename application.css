@@ -320,6 +320,8 @@ a{
     }
     #video{
         background: #fff;
+        min-height:820px;
+        height: calc(100vh - 85px);
     }
     #how_it_works{
         padding: 60px 0;
