@@ -459,6 +459,9 @@ a{
 
 /* Mobile (768px and under)*/
 @media (max-width: 768px) {
+    .how_img_div img{
+        width:100%;
+    }
     .hidden_phone{
         display:none;
     }
