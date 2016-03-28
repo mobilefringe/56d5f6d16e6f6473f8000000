@@ -33,7 +33,7 @@
 <section id="how_it_works" class="ease_in">
     <div class="main_container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <h2 class="heading">How does it work?</h2>
                 <p class="desc">
                     Leasing Maverick helps you manage your property like a Pro
@@ -49,8 +49,8 @@
                 </p>
                 
             </div>
-            <div class="col-md-5 how_img_div">
-                <img style="width:100%;" src="http://assets.codecloudapp.com/sites/56d5f6d16e6f6473f8000000/image/png/1456864002000/howitworks.png" class="" alt="">
+            <div class="col-md-6 how_img_div">
+                <img src="http://assets.codecloudapp.com/sites/56d5f6d16e6f6473f8000000/image/png/1456864002000/howitworks.png" class="" alt="">
             </div>
         </div>
     </div>
