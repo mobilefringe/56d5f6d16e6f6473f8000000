@@ -20,9 +20,9 @@
     <div class="custom_backdrop"></div>
     <div class="headline">
         <div class="main_container text-center">
-            <h2 class="heading">Developed for Retailers looking to easily manage their Digital Content</h2>
+            <h2 class="heading">Developed for Leasing managers to help manage their Retail Properties</h2>
             <p class="headline_desc">
-                Promotions, Campaigns, Jobs and Social Posts to all your retailer outlets from one place!
+                Manage leases, contracts, and listings for your entire portfolio
             </p>
             <a href="#signup" class="scroll main_btn">START NOW!</a>
             <a href="//mallmaverick.com/retail_users/sign_in" class="main_btn hidden_phone">LOGIN</a>
