@@ -89,7 +89,7 @@ body{
     margin-top:40px;
     text-align:right;
     img{
-        max-width:400%;
+        width:500px;
     }
 }
 .main_btn{
