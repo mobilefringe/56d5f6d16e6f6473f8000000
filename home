@@ -114,7 +114,7 @@
                             <input type="text" name="cm-f-irujjr" id="retailer" class="form-control custom_control" />
                         </div>
                         <div class="col-md-12 text-center">
-                            <input type="submit" value="SEND" class="send_btn" />
+                            <input type="submit" value="START NOW" class="send_btn" />
                             <h2 id="signup_confirmed">Thank you for signing up for Retail Maverick</h2>
                         </div>
                     </div>
