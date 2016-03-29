@@ -22,7 +22,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
             
-            ga('create', 'UA-69974835-6', 'auto');
+            ga('create', 'UA-69974835-3', 'auto');
             ga('send', 'pageview');
             
         </script>
@@ -64,8 +64,8 @@
                     <div class="col-md-5 col-xs-6">
                         <div class="newsletter_div">
                             <h4 class="header">Subscribe & Get Updates!</h4> 
-                            <form action="http://mobilefringe.createsend.com/t/d/s/huftl/" method="post" id="subForm">
-                                <input type="text" name="cm-huftl-huftl" class="form-control custom_form_control" placeholder="Enter Email" required />
+                            <form action="http://mobilefringe.createsend.com/t/d/s/ktljdt/" method="post" id="subForm">
+                                <input type="text" name="cm-ktljdt-ktljdt" class="form-control custom_form_control" placeholder="Enter Email" required />
                                 <input type="submit" value="SUBMIT" class="submit_btn hidden_phone" />
                                 <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
                                 <label for="agree_terms" class="confirm_label checkbox-custom-label">
