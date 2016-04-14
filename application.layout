@@ -4,6 +4,7 @@
         <title>{{meta_title}}</title>
         <link rel="shortcut icon" href="" />
         <meta charset="utf-8">
+        <link href="http://cdn.mallmaverick.com/system/sites/favicons/000/000/020/original/mmicon.png?1416605421" rel="shortcut icon" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">        <meta name="description" content="{{meta_description}}">
         <meta name="keywords" content="{{meta_keywords}}">
