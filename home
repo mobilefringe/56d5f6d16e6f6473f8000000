@@ -154,6 +154,7 @@
                         $('#signup_confirmed').delay(2000).fadeOut();
                         $('#signup_form').trigger('reset');
                         $('.send_btn').prop('disabled', false);
+                        $.getJSON(this.action + "?callback=?",$(this).serialize());
                     }
                     else{
                         alert("Unable to process your request. Please try again later.")
@@ -165,13 +166,8 @@
                 $('#signup_confirmed').delay(2000).fadeOut();
                 $('#signup_form').trigger('reset');
                 $('.send_btn').prop('disabled', false);
+                $.getJSON(this.action + "?callback=?",$(this).serialize());
             }
-            console.log($(this).serialize())
-            var abc = $.getJSON(
-                this.action + "?callback=?",
-                $(this).serialize()
-            );
-            console.log(abc)
         });
     });
     
