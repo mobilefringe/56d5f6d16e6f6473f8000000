@@ -166,7 +166,7 @@
                 $('#signup_form').trigger('reset');
                 $('.send_btn').prop('disabled', false);
             }
-            
+            console.log($(this).serialize())
             var abc = $.getJSON(
                 this.action + "?callback=?",
                 $(this).serialize()
