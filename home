@@ -166,10 +166,12 @@
                 $('#signup_form').trigger('reset');
                 $('.send_btn').prop('disabled', false);
             }
-            $.getJSON(
+            
+            var abc = $.getJSON(
                 this.action + "?callback=?",
                 $(this).serialize()
             );
+            console.log(abc)
         });
     });
     
