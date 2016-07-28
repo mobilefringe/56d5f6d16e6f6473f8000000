@@ -149,7 +149,6 @@
             var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
             
             if (true){
-                alert("test")
                 $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
                     if(status == "success"){
                         $("#signup_confirmed").fadeIn();
