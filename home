@@ -161,6 +161,7 @@
                         alert("Unable to process your request. Please try again later.")
                     }
                 });
+            }
             else{
                 $("#signup_confirmed").fadeIn();
                 $('#signup_confirmed').delay(2000).fadeOut();
