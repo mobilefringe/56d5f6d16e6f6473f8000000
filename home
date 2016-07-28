@@ -147,6 +147,7 @@
             custom.company = $('#company').val();
             post_data.custom = custom;
             var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+            alert(!isSafari)
             if (!isSafari){
                 alert("test")
                 $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
