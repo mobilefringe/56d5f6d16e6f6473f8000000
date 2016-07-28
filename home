@@ -150,11 +150,12 @@
             if (!isSafari){
                 $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
                     if(status == "success"){
+                        $.getJSON(this.action + "?callback=?",$(this).serialize());
                         $("#signup_confirmed").fadeIn();
                         $('#signup_confirmed').delay(2000).fadeOut();
                         $('#signup_form').trigger('reset');
                         $('.send_btn').prop('disabled', false);
-                        $.getJSON(this.action + "?callback=?",$(this).serialize());
+                        
                     }
                     else{
                         alert("Unable to process your request. Please try again later.")
@@ -162,11 +163,12 @@
                 });
             }
             else{
+                $.getJSON(this.action + "?callback=?",$(this).serialize());
                 $("#signup_confirmed").fadeIn();
                 $('#signup_confirmed').delay(2000).fadeOut();
                 $('#signup_form').trigger('reset');
                 $('.send_btn').prop('disabled', false);
-                $.getJSON(this.action + "?callback=?",$(this).serialize());
+                
             }
         });
     });
