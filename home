@@ -148,26 +148,7 @@
             post_data.custom = custom;
             var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
             alert(!isSafari)
-            alert("test")
-            if (!isSafari){
-                
-                $.post("http://home.mallmaverick.com/custom_email", post_data, function(data, status, xhr){
-                    if(status == "success"){
-                        $("#signup_confirmed").fadeIn();
-                        $('#signup_confirmed').delay(2000).fadeOut();
-                        $('#signup_form').trigger('reset');
-                        $('.send_btn').prop('disabled', false);
-                    }
-                    else{
-                        alert("Unable to process your request. Please try again later.")
-                    }
-                });
-            else{
-                $("#signup_confirmed").fadeIn();
-                $('#signup_confirmed').delay(2000).fadeOut();
-                $('#signup_form').trigger('reset');
-                $('.send_btn').prop('disabled', false);
-            }
+            i
             $.getJSON(
                 this.action + "?callback=?",
                 $(this).serialize()
