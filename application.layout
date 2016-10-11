@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{meta_title}}</title>
+        <link rel="shortcut icon" href="" />
+        <meta charset="utf-8">
+        <link href="//mallmaverick.cdn.speedyrails.net/system/sites/favicons/000/000/020/original/mmicon.png?1416605421" rel="shortcut icon" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">        <meta name="description" content="{{meta_description}}">
+        <meta name="keywords" content="{{meta_keywords}}">
+        <meta name="author" content="">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link href="../application.css" rel="stylesheet">
+        <link href="../modal.css" rel="stylesheet">
+        
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="../application.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-69974835-3', 'auto');
+            ga('send', 'pageview');
+            
+        </script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body id="top" data-spy="scroll" data-target="#navigation">
+        <section id="header">
+            <div class="main_container">
+                <a href="/">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/57fd4d246e6f641367390200/image/png/1459182050000/leasing_maverick_logo.png" class="main_logo" alt="logo">
+                </a>
+                <img id="open_menu" src="//codecloud.cdn.speedyrails.net/sites/568ad9ee6e6f643bf4000000/image/png/1452023412000/menu_mobile.png" class="menu_icons" alt="Open Menu">
+                <img id="close_menu" src="//codecloud.cdn.speedyrails.netm/sites/568ad9ee6e6f643bf4000000/image/png/1452023426000/close_menu.png" class="menu_icons" alt="Close Menu">
+                
+                <ul class="custom_nav" id="menu">
+                    <li><a href="/#how_it_works" class="scroll">How it works</a></li>
+                    <li><a href="/#features" class="scroll">Features</a></li>
+                    <li><a href="//mallmaverick.com/retail_users/sign_in" class="">Login</a></li>
+                    <li><a href="/#signup" class="sign_up scroll">Start Now!</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        {{yield}}
+        
+        <section id="newsletter" class="fade_in">
+            <div class="main_container">
+                <div class="row">
+                    <div class="col-md-7 col-xs-6">
+                        <!--<h4 class="header">Privacy Policy</h4>-->
+                        <!--<p>Maintaining the privacy of our followers is one of our greatest concerns. Freebie Web Resources is a great resource site, and we would like to keep it that way without compromising the safety and privacy of our consuming end: you. ... <a href="#" id="read_privacy">Read More!</a></p>-->
+                    </div>
+                    <div class="col-md-5 col-xs-6">
+                        <div class="newsletter_div">
+                            <h4 class="header">Subscribe & Get Updates!</h4> 
+                            <form action="//mobilefringe.createsend.com/t/d/s/ktljdt/" method="post" id="subForm">
+                                <input type="text" name="cm-ktljdt-ktljdt" class="form-control custom_form_control" placeholder="Enter Email" required />
+                                <input type="submit" value="SUBMIT" class="submit_btn hidden_phone" />
+                                <input id="agree_terms" type="checkbox" value="true" class="checkbox-custom">
+                                <label for="agree_terms" class="confirm_label checkbox-custom-label">
+                                    I agree to receive email messaging from Leasing Maverick
+                                </label>
+                                <input type="submit" value="SUBMIT" class="submit_btn show_phone" />
+                                <h5 id="subscription_confirmed">Thank you for subscribing.</h5>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="footer">
+            <div class="main_container">
+                <p class="pull-left">
+                    @2016 Leasing Maverick. All right reserved.
+                </p>
+                <p class="pull-right">
+                    Powered by <a href="//mallmaverick.com" target="_blank" class="mm_link">Mall Maverick</a>
+                </p>
+            </div>
+        </section>
+    </body>
+</html>
