@@ -41,7 +41,7 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fd4d246e6f641367390200/image/png/1459182050000/leasing_maverick_logo.png" class="main_logo" alt="logo">
                 </a>
                 <img id="open_menu" src="//codecloud.cdn.speedyrails.net/sites/568ad9ee6e6f643bf4000000/image/png/1452023412000/menu_mobile.png" class="menu_icons" alt="Open Menu">
-                <img id="close_menu" src="//codecloud.cdn.speedyrails.netm/sites/568ad9ee6e6f643bf4000000/image/png/1452023426000/close_menu.png" class="menu_icons" alt="Close Menu">
+                <img id="close_menu" src="//codecloud.cdn.speedyrails.net/sites/568ad9ee6e6f643bf4000000/image/png/1452023426000/close_menu.png" class="menu_icons" alt="Close Menu">
                 
                 <ul class="custom_nav" id="menu">
                     <li><a href="/#how_it_works" class="scroll">How it works</a></li>
